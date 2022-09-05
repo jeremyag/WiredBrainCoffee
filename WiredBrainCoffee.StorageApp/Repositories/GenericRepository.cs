@@ -17,5 +17,10 @@ namespace WiredBrainCoffee.StorageApp.Repositories
                 Console.WriteLine(item);
             }
         }
+
+        public void Remove(T item)
+        {
+            _items.Remove(item);
+        }
     }
 }
